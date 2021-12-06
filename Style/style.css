@@ -1,0 +1,91 @@
+body {
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+}
+.tab div {
+    display: none;
+}
+.tab div:target {
+    display: block;
+}
+    /* Ссылки */
+a:link { 
+    color: #fff; /* Цвет непосещенных ссылок */
+    font-family: 'Times New Roman', Times, serif; /* Шрифт текста */
+    margin: 0px;
+    text-decoration: none;
+}
+a:visited { 
+    color: #fff; /* Цвет посещенных ссылок */
+}
+a:hover { 
+    color: #fff; /* Цвет ссылок при наведении на них */
+    font-weight: bold;
+}
+a:active { 
+    color: rgba(38,36,36,0.7); /* Цвет активных ссылок */
+}
+
+tr:hover {
+    background: rgb(160, 185, 240, 0.5); /* Цвет фона строки таблицы */ 
+}
+    /* Таблица */
+table {
+    display: block;
+    border-spacing: 0;
+}
+table {
+    font-size: 20px; /* Размер текста */
+}
+td {
+    padding: 7px;
+    width: 10%;
+}
+th {
+    padding: none;
+}
+em {
+    padding: none;
+}
+    /* Обший тест */
+p {
+    text-indent: 1.5em; /* Отступ первой строки */
+    font-size: 20px; /* Размер текста */
+    font-family: 'Times New Roman', Times, serif; /* Шрифт текста */
+    margin: 20px;
+}
+h1 {
+    display: block;
+}
+h3 {
+    text-indent: 1em; /* Отступ первой строки */
+    font-size: 14px; /* Размер текста */
+    font-family: 'Times New Roman', Times, serif; /* Шрифт текста */
+    padding-left: 10px;
+    font-weight: normal;
+}
+h2 {
+    display: flex;
+    text-indent: 2em; /* Отступ первой строки */
+    font-size: 20px; /* Размер текста */
+    font-family: 'Times New Roman', Times, serif; /* Шрифт текста */
+    padding-left: 20px;
+    font-weight: normal;
+}
+input {
+    margin: 15px;
+    margin-bottom: 0px;
+    min-width: 200px;
+    max-width: 300px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+span {
+    padding-left: 50px;
+    padding-top: 5px;
+    color: red;
+    font-size: 18px;
+}

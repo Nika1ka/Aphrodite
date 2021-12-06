@@ -1,0 +1,295 @@
+    /* Верхнее навигационное меню */
+#top_footer {
+    display: flex;
+    position: fixed;
+    background: rgba(38,36,36,0.6);
+    transition: background-color 0.25s linear, color 0.25s linear;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    font-size: 14px; /* Размер текста */
+    line-height: 45px;
+    Justify-content: space-around;
+}
+#top_footer:hover {
+    background: rgba(38,36,36,0.95); /* Цвет фона строки таблицы */ 
+}
+    /* Ссылки навигационного меню */
+/*#top_links {
+    display: flex;
+    margin: 10px;
+}*/
+
+.bottom_footer {
+    float: bottom;
+    background-color: #1e4640ec;
+    width: 100%;
+    font-size: 20px; /* Размер текста */
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    line-height: 40px;
+    text-indent: 20px;
+    margin-top: 30px;
+    margin-right: 10%;
+    min-height: 165px;
+}
+
+#prises_menu {
+    position: fixed;
+    left: 33%;
+    height: 40px;
+    top: 50px;
+    font-size: 12px; /* Размер текста */
+    Justify-content: space-around;
+}
+#select_menu {
+    display: flex;
+    flex-direction: column;
+    background: rgba(38,36,36,0.6);
+    transition: background-color 0.25s linear, color 0.25s linear;
+    height: 315px;
+    width: 205px;
+    top: 80px;
+    border-radius: 0px 0px 15px 15px;
+}
+#select_menu:hover {
+    background: rgba(38,36,36,0.95); /* Цвет фона строки таблицы */
+}
+
+.item_list div {
+    display: none;
+}
+.item_list div:target {
+    display: flex;
+}
+
+.panel_hide div {
+    display: none;
+}
+.panel_hide div:target {
+    display: flex;
+}
+
+/*#link_menu_text {
+    text-indent: 1em;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}*/
+
+.main_page_text {
+    color: rgb(240, 240, 240);
+    /* text-align: center; */
+    position: relative;
+    font-size: 14px; /* Размер текста */
+    font-family: 'Times New Roman', Times, serif; /* Шрифт текста */
+    display: block;
+    float: left;
+    width: 65%;
+    max-width: 600px;
+    height: auto;
+    background-color: #1e4640ec;
+    margin: none;
+    top: -8px;
+}
+
+.main_page_right_image_frame {
+    overflow: hidden;
+    max-width: 500px;
+    min-width: 350px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.main_page_right_image {
+    width: 100%;
+    height: 100%;
+}
+.main_page_right_image_text {
+    display: block;
+    position: relative;
+    top: -250px;
+    width: 230px;
+    font-size: 35px; /* Размер текста */
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+}
+.main_page_text_1 {
+    display: block;
+    position: relative;
+    left: 50px;
+    height: 50px;
+    background-color: white;
+}
+.main_page_text_2 {
+    display: block;
+    position: relative;
+    left: 90px;
+    height: 50px;
+    background-color: white;
+}
+.main_page_text_3 {
+    display: block;
+    position: relative;
+    left: 130px;
+    height: 50px;
+    background-color: white;
+}
+
+.select_link {
+    border: 5px dotted white;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+/*.select_link {
+    background-color: rgb(131, 125, 125);
+    box-shadow: 0px 0px 50px rgba(0,0,0,1);
+    border-top: 0px;
+    border-right: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 0px;
+}*/
+
+.table_money_text {
+    font-family: "Gotham Pro"; 
+    font-size: 15px;
+    text-align: right;
+}
+.table_info_text {
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-size: 17px;
+}
+.table_topic_text {
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-size: 20px;
+    text-indent: 50px;
+}
+
+.submit {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 250px;
+    min-height: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 15px;
+    background: linear-gradient(45deg,#e6ad59 -60%,rgba(187, 76, 76, 0.445) 15%,rgba(165, 84, 84, 0.164) 120%),#f4c54d;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.service_block {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 0px;
+    height: 400px;
+}
+#service {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20%;
+    padding-top: 15px;
+    margin: 0px;
+    margin-left: 0px;
+    background-color:  #1e4640ec;
+}
+.service_block div {
+    display: none;
+}
+.service_block div:target {
+    display: block;
+}
+
+.include_map {
+    margin-top: 10px;
+    border: 1px groove black; /* Параметры границы */
+    border-radius: 30px 10px 30px 10px;
+    width: 400px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.staff_info {
+    display: flex;
+    float: left;
+    /* width: 70%;
+    min-width: 700px; */
+    min-width: 600px;
+    max-width: 800px;
+    margin: 20px;
+    background-color: rgb(226, 188, 92);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.staff_info_text {
+    display: flex;
+    flex-shrink: 0.5; /* Коэффициент сжатия */
+}
+.staff_image {
+    max-width: 300px;
+    display: flex;
+    padding: 10px;
+    flex-grow: 0.5; /* Коэффициент роста */
+}
+
+.staff_table {
+    text-indent: 0px;
+    color:rgb(240, 240, 240);
+    line-height: 1.2;
+    margin: 10px;
+    margin-left: 25px;
+}
+.staff_table_info {
+    margin-left: 10%;
+    min-width: 400px;
+    margin: 10px;
+}
+.staff_text{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 15px;
+    flex-basis: 35%;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    background-color: #f4c54d;
+}
+.break{
+    flex-basis: 100%;
+    height: 0;
+}
+
+.input_form {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#html_blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+#html_blur_window {
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    display: none;
+    height: 20%;
+    min-height: 130px;
+    width: 20%;
+    min-width: 200px;
+    border-radius: 10px;
+    border: 5px groove black; /* Параметры границы */
+    background-color: rgba(255, 255, 255, 0.75);
+}
