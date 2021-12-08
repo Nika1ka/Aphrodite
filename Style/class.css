@@ -19,6 +19,7 @@
     font-family: Arial, Helvetica, sans-serif;
     width: 110px;
     padding: 10px;
+    min-height: 100px;
     background-color:rgba(172, 172, 204, 0.22);
     cursor: pointer;
 }
